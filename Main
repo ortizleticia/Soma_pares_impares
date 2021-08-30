@@ -1,0 +1,13 @@
+somapares = 0
+somaimpares = 0
+
+for i in range(0, 10):
+    print("Informe o número")
+    n = int(input())
+    if n % 2 == 0:
+        somapares += n
+    else:
+        somaimpares += n
+    
+print("\n O valor total da soma de números pares é:",somapares)
+print("\n O valor total da soma de números ímpares é:",somaimpares)
